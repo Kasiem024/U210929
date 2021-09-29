@@ -7,12 +7,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Kasiem Saeed",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kasiem024/U210927.git"
+  },
+  "author": "",
   "license": "ISC",
   "engines": {
     "node": "14.x"
   },
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "bugs": {
+    "url": "https://github.com/Kasiem024/U210927/issues"
+  },
+  "homepage": "https://github.com/Kasiem024/U210927#readme"
 }
