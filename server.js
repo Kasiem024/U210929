@@ -18,6 +18,9 @@ app.get('/exercise2.js', (req, res) => {
     });
 })
 
+const port = process.env.port || 8042;
+
+
 app.listen(port, () => {
     console.log(`Server up and listening on port ${port}`);
 })
