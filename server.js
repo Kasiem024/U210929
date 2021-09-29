@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const express = require('express');
 const fs = require('fs');
@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
         res.setHeader('Content-Length', data.length);
         res.send(data);
     });
-})
+});
 
 app.get('/exercise2.js', (req, res) => {
     fs.readFile('exercise2.js', (err, data) => {
@@ -20,8 +20,8 @@ app.get('/exercise2.js', (req, res) => {
         res.setHeader('Content-Length', data.length);
         res.send(data);
     });
-})
+});
 
 app.listen(PORT, () => {
     console.log(`Server up and listening on PORT ${PORT}`);
-})
+});
