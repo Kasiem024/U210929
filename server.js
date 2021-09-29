@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 
 app.get('/exercise2.js', (req, res) => {
     fs.readFile('exercise2.js', (err, data) => {
-        res.setHeader('Content-Type', 'text/javasript');
+        res.setHeader('Content-Type', 'text/javascript');
         res.setHeader('Content-Length', data.length);
         res.send(data);
     });
