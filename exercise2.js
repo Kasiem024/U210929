@@ -1,1 +1,1 @@
-console.log('This is from exercise2')
+console.log('Console message from exercise2.js')

@@ -12,6 +12,11 @@ app.get('/app.html', (req, res) => {
         res.send(data);
     });
 })
+app.get('/exercise2.js', (req, res) => {
+    fs.readFile('exercise2.js', (err, data) => {
+        res.send(data);
+    });
+})
 
 app.listen(port, () => {
     console.log(`Server up and listening on port ${port}`);
